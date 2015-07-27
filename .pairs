@@ -1,0 +1,10 @@
+---
+pairs:
+  dv: David Varvel; dvarvel
+  sk: SungYoon Kim; sukim
+
+email:
+  prefix: pair
+  domain: pivotal.io
+
+global: true
