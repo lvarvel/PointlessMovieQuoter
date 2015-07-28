@@ -1,4 +1,8 @@
 #!/bin/bash
 
 export TERM=${TERM:-dumb}
+ls
+echo 'printing the path'
+echo $PATH
+cd pointless-movie-quoter
 gradle test
