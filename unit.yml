@@ -7,5 +7,5 @@ inputs:
 - name: pointless-movie-quoter
 
 run:
-  path: gradle
+  path: echo
   args: ["test"]
