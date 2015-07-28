@@ -7,4 +7,4 @@ inputs:
 - name: pointless-movie-quoter
 
 run:
-  path: ci_build
+  path: pointless-movie-quoter/ci_build
