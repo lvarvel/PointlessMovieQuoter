@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///ubuntu#14.04
+image: docker:///trevorwang/ubuntu-java8-gradle
 
 inputs:
 - name: pointless-movie-quoter
