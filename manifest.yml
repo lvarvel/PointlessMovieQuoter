@@ -2,5 +2,5 @@
 applications:
 - name: pointlessMovieQuoter
   memory: 1024M
-  path: build/libs/pointlessMovieQuoter-0.9.0.war
+  path: pointless-movie-quoter/build/libs/pointlessMovieQuoter-0.9.0.war
   host: pointlessMovieQuoter
