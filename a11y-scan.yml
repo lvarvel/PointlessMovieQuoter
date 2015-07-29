@@ -1,0 +1,11 @@
+---
+platform: linux
+
+image: docker:///sykim1b/google-accessibility
+
+inputs:
+- name: pointless-movie-quoter
+
+run:
+  path: phantomjs
+  args: ["/usr/local/accessibility-developer-tools/tools/runner/audit.js", "http://pointlessMovieQuoter.cfapps.io"]
