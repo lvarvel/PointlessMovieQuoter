@@ -1,0 +1,5 @@
+---
+applications:
+- name: pointlessMovieQuoter
+  memory: 1024M
+  host: pointlessMovieQuoter
