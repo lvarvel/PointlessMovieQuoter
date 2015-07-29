@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export TERM=${TERM:-dumb}
+cd pointless-movie-quoter
+gradle build

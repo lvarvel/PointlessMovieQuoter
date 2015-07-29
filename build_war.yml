@@ -1,0 +1,10 @@
+---
+platform: linux
+
+image: docker:///trevorwang/ubuntu-java8-gradle
+
+inputs:
+- name: pointless-movie-quoter
+
+run:
+  path: pointless-movie-quoter/build_war
