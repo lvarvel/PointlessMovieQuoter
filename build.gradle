@@ -15,15 +15,15 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'war'
 
-jar {
-    baseName = 'gs-spring-boot'
-    version =  '0.1.0'
+
+war {
+    baseName = 'pointlessMovieQuoter'
+    version =  '0.9.0'
 }
-
 
 dependencies {
     // tag::jetty[]
@@ -36,6 +36,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
     testCompile("junit:junit")
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
 
 task wrapper(type: Wrapper) {
