@@ -7,4 +7,4 @@ inputs:
 - name: pointless-movie-quoter
 
 run:
-  path: a11y-scan
+  path: pointless-movie-quoter/a11y-scan
