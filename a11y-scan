@@ -1,0 +1,5 @@
+#!/bin/bash
+
+phantomjs /usr/local/accessibility-developer-tools/tools/runner/audit.js http://pointlessMovieQuoter.cfapps.io > ./a11y_report
+cat ./a11y_report
+! egrep -i "Warning|Error" ./a11y_report > /dev/null
