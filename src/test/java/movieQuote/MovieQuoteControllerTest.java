@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 public class MovieQuoteControllerTest {
 
     @Test
-    public void setUp() {
+    public void itShouldRenderTheIndexTemplate() {
         MovieQuoteController movieQuoteController = new MovieQuoteController();
-        assertEquals("I don't get it! Let's make it a bug!", movieQuoteController.index());
+        assertEquals("index", movieQuoteController.index());
     }
 }
